@@ -1,0 +1,5 @@
+# Plataform
+default: -p cucumber_publish
+
+http_log: HTTP_LOG=true
+cucumber_publish: --publish-quiet
